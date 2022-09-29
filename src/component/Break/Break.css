@@ -1,0 +1,33 @@
+.break-info{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.break-info div{
+   
+    background-color: green;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.break-info button{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+  
+}
+
+.break{
+    padding-top: 10px;
+}
+
+.break-title{
+    text-align: center;
+    margin-bottom: 10px;
+}

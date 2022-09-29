@@ -1,0 +1,108 @@
+.gym-practice-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 0px 20px;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.gym-practice{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+
+.gym-other-info{
+    background-color: blueviolet;
+}
+
+
+.gym-other-info-container{
+    position: sticky;
+    top: 0;
+    padding: 10px;
+}
+
+.qNa-section{
+    margin-top: 20px;
+    padding: 10px;
+    height: auto;
+    margin-bottom: 20px;
+    background-color: green;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.qNa-section small{
+    font-size: 20px;
+}
+
+.title{
+    text-align: center;
+    color: #fff;
+}
+
+/* mobile devices */
+@media screen and (max-width:575px)
+{
+
+   .gym-practice-container{
+    grid-template-columns: auto;
+    
+}
+
+   .gym-practice{
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+/* .gym-other-info{
+    width: 300px;
+    margin: 0 auto;
+} */
+
+
+}
+
+/* medium devices */
+
+
+@media screen and (min-width:576px) and (max-width:767px) 
+{
+   
+   .gym-practice-container{
+
+    grid-template-columns: auto;
+    
+}
+
+   .gym-practice{
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+/* .gym-other-info{
+    width: 620px;
+    margin: 0 auto;
+} */
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:991px) 
+{
+
+   .gym-practice-container{
+    grid-template-columns: auto auto;
+    justify-content: center;
+    
+}
+
+   .gym-practice{
+    grid-template-columns: auto auto;
+}
+
+
+}
+
+

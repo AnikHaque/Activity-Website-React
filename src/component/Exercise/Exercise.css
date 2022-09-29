@@ -1,0 +1,17 @@
+.exercise{
+    margin-top: 20px;
+}
+
+.exercise-title{
+    text-align: center;
+}
+
+.exercise-time{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    margin-top: 20px;
+    border-radius: 5px;
+}
